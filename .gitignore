@@ -1,0 +1,6 @@
+node_modules
+typeings
+!typeings/references.d.ts
+target
+*.js
+!webpack.config.js
