@@ -1,8 +1,0 @@
-npm-debug.log
-node_modules
-!typeings/references.d.ts
-!typeings/alt/alt.d.ts
-!typings/node/node.d.ts
-target
-*.js
-!webpack.config.js
