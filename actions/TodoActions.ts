@@ -1,4 +1,4 @@
-/// <reference path="../../../typings/references.d.ts"/>
+/// <reference path="../typings/references.d.ts"/>
 
 import {alt} from "../alt";
 import Alt = require("alt");

@@ -1,3 +1,5 @@
+/// <reference path="../typings/references.d.ts"/>
+
 import {alt} from "../alt";
 import Alt = require("alt");
 import merge = require("react/lib/Object.assign");

@@ -22,5 +22,6 @@ module.exports = {
               test: /\.ts$/,
               loader: "react-hot!awesome-typescript?useWebpackText=true!ts-jsx-loader?harmony=true"
             }
+        ]
 	}
 };

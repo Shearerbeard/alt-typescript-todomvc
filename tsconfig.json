@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./actions/TodoActions.ts",
+        "./alt.ts",
+        "./app.ts",
+        "./components/Footer.ts",
+        "./components/Header.ts",
+        "./components/MainSection.ts",
+        "./components/TodoApp.ts",
+        "./components/TodoItem.ts",
+        "./components/TodoTextInput.ts",
+        "./stores/TodoStore.ts",
+        "./typings/alt/alt.d.ts",
+        "./typings/eventemitter3/eventemitter3.d.ts",
+        "./typings/flux/flux.d.ts",
+        "./typings/node/node.d.ts",
+        "./typings/react/react-jsx.d.ts",
+        "./typings/react/react.d.ts",
+        "./typings/references.d.ts",
+        "./typings/tsd.d.ts"
+    ]
+}
