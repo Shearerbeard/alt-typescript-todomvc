@@ -34,7 +34,6 @@ export default class TodoItem extends React.Component<Props, State> {
 
     var input;
     if(this.state.isEditing) {
-      console.warn("Assigning input value " + this.props.todo.text)
       input = React.jsx(`
 
           <TodoTextInput
