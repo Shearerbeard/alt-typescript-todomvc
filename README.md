@@ -7,4 +7,4 @@ install dependencies with
 run example with
 ```npm start```
 
-expample serves on port 9000.
+example serves via webpack-dev-server on port 9000. React components will actually hot-reload in the browser unless there are serious complile errors!
