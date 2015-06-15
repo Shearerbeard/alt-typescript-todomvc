@@ -25,6 +25,11 @@ declare module AltJS {
   }
 }
 
+declare module "alt/utils/chromeDebug" {
+	function chromeDebug(alt:any):void;
+	export = chromeDebug;
+}
+
 declare module "alt" {
 
   import {Dispatcher} from "flux";
