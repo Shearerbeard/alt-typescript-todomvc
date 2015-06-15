@@ -1,5 +1,3 @@
-/// <reference path="../typings/references.d.ts"/>
-
 import * as React from "react";
 import {todoActions} from "../actions/TodoActions";
 import {default as TodoTextInput} from "./TodoTextInput";

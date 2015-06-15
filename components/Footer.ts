@@ -1,5 +1,3 @@
-/// <reference path="../typings/references.d.ts"/>
-
 import * as React from "react";
 import {default as TodoActions} from "../actions/TodoActions";
 import {Todo} from "../stores/TodoStore";

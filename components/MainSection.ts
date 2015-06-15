@@ -1,4 +1,3 @@
-
 import * as React from "react";
 import {Todo} from "../stores/TodoStore";
 import {default as TodoItem} from "./TodoItem";
@@ -26,7 +25,7 @@ export default class MainSection extends React.Component<Props, any> {
 
     var allTodos = this.props.allTodos;
     let todos = keys.map((key) =>
-      React.jsx(` <TodoItem key={key} todo={allTodos[key]} /> `)); 
+      React.jsx(` <TodoItem key={key} todo={allTodos[key]} /> `));
 
     return React.jsx(`
 

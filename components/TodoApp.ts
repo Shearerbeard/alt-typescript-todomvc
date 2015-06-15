@@ -1,5 +1,3 @@
-/// <reference path="../typings/references.d.ts"/>
-
 import * as React from "react";
 import {default as Footer} from "./Footer";
 import {default as Header} from "./Header";
