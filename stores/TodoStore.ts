@@ -14,10 +14,10 @@ interface State {
 }
 
 class StoreModel {
-    bindActions( ...actions:Array<Object>):void {};
+    bindActions( ...actions:Array<Object>):void {}
     getState():State {
       return <State>{};
-    };
+    }
 }
 
 interface ExtendedAltStore extends AltJS.AltStore<State> {

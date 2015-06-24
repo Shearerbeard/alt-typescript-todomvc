@@ -11,7 +11,14 @@ interface Actions {
   destroyCompleted();
 }
 
-class TodoActions extends Alt {
+class AbstractActions {
+   constructor(options) {}
+   dispatch() {}
+   generateActions( ...args:Array<string>):void {};
+   actions:any;
+}
+
+class TodoActions extends AbstractActions {
   constructor(config) {
     this.generateActions(
       "create",

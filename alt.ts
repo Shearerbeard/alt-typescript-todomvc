@@ -1,4 +1,4 @@
-import Alt = require("alt");
+import Alt =  require("alt");
 import chromeDebug = require("alt/utils/chromeDebug");
 
 const altInstance = new Alt();

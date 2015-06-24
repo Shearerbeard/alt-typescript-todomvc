@@ -27,6 +27,8 @@
         "./typings/alt/alt.d.ts",
         "./typings/eventemitter3/eventemitter3.d.ts",
         "./typings/flux/flux.d.ts",
+        "./typings/react-router/react-router.d.ts",
+        "./typings/react/react-global.d.ts",
         "./typings/react/react-jsx.d.ts",
         "./typings/react/react.d.ts",
         "./typings/references.d.ts",
